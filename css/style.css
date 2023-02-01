@@ -9,7 +9,13 @@
     height: calc(100vh - 80px);
 }
 
+hr{
+  width: 50px;
+  color: lightgray;
+}
+
 nav{
+    position: fixed;
     display: flex;
     align-items: center;
     
@@ -18,6 +24,8 @@ nav{
     background-color: white;
 
     font-size: 16px;
+
+    z-index: 2;
 }
 
 .inner-nav{
@@ -76,7 +84,7 @@ header h1{
     font-size: 4.5em;
     text-align: center;
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .header-section{
@@ -130,12 +138,11 @@ header h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 200px;
   }
   
   .container {
-    width: 1000px;
-    height: 100vh;
+    width: 50%;
   }
 
   .container h2{
@@ -206,5 +213,245 @@ header h1{
     text-align: center;
     padding: 1em;
   }
+
+  .partner-flex{
+    display: flex;
+    gap: 60px;
+    padding-bottom: 250px;
+  }
+
+  .partner-flex img{
+    width: 100%;
+  }
+
+  .partner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .partner-title{
+    width: 50%;
+  }
+
+  .partner-paragraph{
+    width: 60%;
+    line-height: 25px;
+  }
+
+  .partner-button{
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 1em;
+  }
+
+  .operations-title{
+    padding-bottom: 50px;
+  }
+
+
+  .operations-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .operations-flex h3{
+    padding-bottom: 40px;
+  }
+
+
+  .operations-flex div{
+    width: calc(100% / 3);
+    line-height: 23px;
+  }
+
+  .operations-flex img{
+    width: 100%;
+  }
+
+  .business-teams{
+    padding-top: 200px;
+  }
+
+  .business-teams-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    padding-bottom: 200px;
+  }
+
+
+  .featured{
+    display: flex;
+  }
+
+  .featured-left, .featured-right{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .featured-left{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+  }
+
+  .featured-left-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+  }
+
+  .featured-left-square img{
+    filter: invert(1);
+    width: 50%;
+  }
+
+  .featured-right-square img{
+    filter: invert(1);
+    width: 50%;
+  }
+
+  .featured-center{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    width: calc(100vw / 3);
+
+    background-color: #f5f5f5;
+    padding: 4%;
+
+  }
+
+  .featured-center p{
+    width: 30;
+  }
+
+  .featured-center img{
+    width: 50%;
+  }
+
+  .featured-right{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+  }
+
+  .featured-right-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+  }
+
+  .grey{
+    color: gray
+  }
+
+  .color1{
+    background-color:#a2d39b
+  }
+
+  .color2{
+    background-color: #61082b;
+  }
+
+  .color3{
+    background-color: #0093ce;
+  }
+
+  .color4{
+    background-color: #ff1c1c;
+  }
+
+  .color5{
+    background-color: #d5001f;
+  }
+
+  .color6{
+    background-color: #b4d0e7;
+  }
+
+  .color7{
+    background-color: #0d2481;
+  }
+
+  .color8{
+    background-color: #ffd830;
+  }
+
+  .Bring-Dropbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #b4d0e7;
+    height: 400px;
+    width: 100%;
+  }
+
+  .Bring-it{
+    color: #61082b;
+  }
+
+  .Bring-it h1{
+    width: 60%;
+  }
+
+  .Bring-it-button{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .Faq-container-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .Faq-flex{
+    display: flex;
+    gap: 30px;
+  }
+
+  .hr-faq{
+    width: 100%;
+  }
+
+  .black-footer{
+    width: 100%;
+    background-color: black;
+    padding: 5%;
+  }
+
+  ul{
+    color: white;
+    list-style: none;
+  }
+
+  .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .links-flex ul{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+
 
   
